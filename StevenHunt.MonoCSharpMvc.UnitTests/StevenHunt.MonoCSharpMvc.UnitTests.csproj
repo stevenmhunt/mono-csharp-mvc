@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BBA58F9-EE8A-469D-86BB-002C0E933AC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>StevenHunt.MonoCSharpMvc.UnitTests</RootNamespace>
+    <AssemblyName>StevenHunt.MonoCSharpMvc.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Package>nunit</Package>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Test.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\StevenHunt.MonoCSharpMvc.Data\StevenHunt.MonoCSharpMvc.Data.csproj">
+      <Project>{3BB6B71D-2D08-490F-8C43-E9D671E58E06}</Project>
+      <Name>StevenHunt.MonoCSharpMvc.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StevenHunt.MonoCSharpMvc.Web\StevenHunt.MonoCSharpMvc.Web.csproj">
+      <Project>{0DB9ECB0-9045-462B-9721-AE33A43C6E70}</Project>
+      <Name>StevenHunt.MonoCSharpMvc.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

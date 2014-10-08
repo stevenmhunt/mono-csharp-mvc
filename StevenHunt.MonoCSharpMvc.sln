@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web Front-end", "1 - Web Front-end", "{C174B901-4507-4B72-9723-413E83353CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StevenHunt.MonoCSharpMvc.Web", "StevenHunt.MonoCSharpMvc.Web\StevenHunt.MonoCSharpMvc.Web.csproj", "{0DB9ECB0-9045-462B-9721-AE33A43C6E70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data Access", "2 - Data Access", "{82BD0B36-FB96-4D5B-93F9-DCC765DC89B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StevenHunt.MonoCSharpMvc.Data", "StevenHunt.MonoCSharpMvc.Data\StevenHunt.MonoCSharpMvc.Data.csproj", "{3BB6B71D-2D08-490F-8C43-E9D671E58E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Unit Testing", "3 - Unit Testing", "{6CB9242E-496A-4481-997D-B89375F33C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StevenHunt.MonoCSharpMvc.UnitTests", "StevenHunt.MonoCSharpMvc.UnitTests\StevenHunt.MonoCSharpMvc.UnitTests.csproj", "{3BBA58F9-EE8A-469D-86BB-002C0E933AC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB9ECB0-9045-462B-9721-AE33A43C6E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB9ECB0-9045-462B-9721-AE33A43C6E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB9ECB0-9045-462B-9721-AE33A43C6E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB9ECB0-9045-462B-9721-AE33A43C6E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB6B71D-2D08-490F-8C43-E9D671E58E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB6B71D-2D08-490F-8C43-E9D671E58E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB6B71D-2D08-490F-8C43-E9D671E58E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB6B71D-2D08-490F-8C43-E9D671E58E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBA58F9-EE8A-469D-86BB-002C0E933AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBA58F9-EE8A-469D-86BB-002C0E933AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBA58F9-EE8A-469D-86BB-002C0E933AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBA58F9-EE8A-469D-86BB-002C0E933AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DB9ECB0-9045-462B-9721-AE33A43C6E70} = {C174B901-4507-4B72-9723-413E83353CFE}
+		{3BB6B71D-2D08-490F-8C43-E9D671E58E06} = {82BD0B36-FB96-4D5B-93F9-DCC765DC89B2}
+		{3BBA58F9-EE8A-469D-86BB-002C0E933AC2} = {6CB9242E-496A-4481-997D-B89375F33C8B}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = StevenHunt.MonoCSharpMvc.Web\StevenHunt.MonoCSharpMvc.Web.csproj
+	EndGlobalSection
+EndGlobal
